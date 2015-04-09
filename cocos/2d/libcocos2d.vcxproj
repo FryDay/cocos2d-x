@@ -972,6 +972,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\external\chipmunk\prebuilt\win32\release-lib\*.*
     <ClInclude Include="..\base\CCEventTouch.h" />
     <ClInclude Include="..\base\CCEventType.h" />
     <ClInclude Include="..\base\ccFPSImages.h" />
+	<ClInclude Include="..\base\CCGameController.h" />
     <ClInclude Include="..\base\CCIMEDelegate.h" />
     <ClInclude Include="..\base\CCIMEDispatcher.h" />
     <ClInclude Include="..\base\ccMacros.h" />

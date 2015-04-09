@@ -9,6 +9,7 @@ set(COCOS_PLATFORM_SPECIFIC_SRC
   platform/win32/CCDevice-win32.cpp
   platform/win32/inet_pton_mingw.cpp
   platform/desktop/CCGLViewImpl-desktop.cpp
+  platform/desktop/CCController-desktop.cpp
 )
 
 elseif(MACOSX OR APPLE)
@@ -21,6 +22,7 @@ set(COCOS_PLATFORM_SPECIFIC_SRC
   platform/apple/CCFileUtils-apple.mm
   platform/apple/CCThread-apple.mm
   platform/desktop/CCGLViewImpl-desktop.cpp
+  platform/desktop/CCController-desktop.cpp
 )
 
 elseif(LINUX)
@@ -38,6 +40,7 @@ set(COCOS_PLATFORM_SPECIFIC_SRC
   platform/linux/CCApplication-linux.cpp
   platform/linux/CCDevice-linux.cpp
   platform/desktop/CCGLViewImpl-desktop.cpp
+  platform/desktop/CCController-desktop.cpp
 )
 
 elseif(ANDROID)
