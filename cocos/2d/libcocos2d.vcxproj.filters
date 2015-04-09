@@ -517,6 +517,9 @@
     <ClCompile Include="..\base\CCConsole.cpp">
       <Filter>base</Filter>
     </ClCompile>
+	    <ClCompile Include="..\base\CCController.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
     <ClCompile Include="..\base\CCData.cpp">
       <Filter>base</Filter>
     </ClCompile>
@@ -2065,6 +2068,9 @@
       <Filter>base</Filter>
     </ClInclude>
     <ClInclude Include="..\base\CCConsole.h">
+      <Filter>base</Filter>
+    </ClInclude>
+	    <ClInclude Include="..\base\CCController.h">
       <Filter>base</Filter>
     </ClInclude>
     <ClInclude Include="..\base\CCData.h">
