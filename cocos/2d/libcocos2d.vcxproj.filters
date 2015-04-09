@@ -517,7 +517,7 @@
     <ClCompile Include="..\base\CCConsole.cpp">
       <Filter>base</Filter>
     </ClCompile>
-	    <ClCompile Include="..\base\CCController.cpp">
+    <ClCompile Include="..\base\CCController.cpp">
       <Filter>base</Filter>
     </ClCompile>
     <ClCompile Include="..\base\CCData.cpp">
@@ -771,6 +771,18 @@
     </ClCompile>
     <ClCompile Include="..\3d\CCAnimate3D.cpp">
       <Filter>3d</Filter>
+    </ClCompile>
+	<ClCompile Include="..\platform\desktop\CCController-desktop.cpp">
+      <Filter>platform\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\CCController.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\CCEventController.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\CCEventListenerController.cpp">
+      <Filter>base</Filter>
     </ClCompile>
     <ClCompile Include="..\3d\CCAnimation3D.cpp">
       <Filter>3d</Filter>
@@ -1803,6 +1815,9 @@
     <ClCompile Include="..\editor-support\cocostudio\CocoStudio.cpp">
       <Filter>cocostudio\json</Filter>
     </ClCompile>
+    <ClCompile Include="..\platform\desktop\CCController-desktop.cpp">
+      <Filter>platform\desktop</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\physics\CCPhysicsBody.h">
@@ -2070,7 +2085,7 @@
     <ClInclude Include="..\base\CCConsole.h">
       <Filter>base</Filter>
     </ClInclude>
-	    <ClInclude Include="..\base\CCController.h">
+    <ClInclude Include="..\base\CCController.h">
       <Filter>base</Filter>
     </ClInclude>
     <ClInclude Include="..\base\CCData.h">
@@ -2186,6 +2201,18 @@
     </ClInclude>
     <ClInclude Include="..\base\pvr.h">
       <Filter>platform</Filter>
+    </ClInclude>
+	<ClInclude Include="..\platform\desktop\CCController-desktop.h">
+      <Filter>platform\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\CCController.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\CCEventController.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\CCEventListenerController.h">
+      <Filter>base</Filter>
     </ClInclude>
     <ClInclude Include="..\base\firePngData.h">
       <Filter>base</Filter>
@@ -3526,6 +3553,9 @@
     </ClInclude>
     <ClInclude Include="..\editor-support\cocostudio\CCObjectExtensionData.h">
       <Filter>cocostudio\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\desktop\CCController-desktop.h">
+      <Filter>platform\desktop</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
