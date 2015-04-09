@@ -47,7 +47,7 @@ class EventDispatcher;
  * @brief A Controller object represents a connected physical game controller.
  * @js NA
  */
-class Controller
+class CC_DLL Controller
 {
 public:
     /** 
@@ -180,11 +180,12 @@ public:
      */
     int getTag() const { return _controllerTag;}
 
+protected:
+	Controller();
+	virtual ~Controller();
+
 private:
     static std::vector<Controller*> s_allController;
-
-    Controller();
-    virtual ~Controller();
 
     void init();
 
