@@ -209,6 +209,7 @@ THE SOFTWARE.
     #include "platform/desktop/CCGLViewImpl-desktop.h"
     #include "platform/win32/CCGL-win32.h"
     #include "platform/win32/CCStdC-win32.h"
+	#include "platform/desktop/CCController-desktop.h"
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_WIN32
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
@@ -216,6 +217,7 @@ THE SOFTWARE.
     #include "platform/mac/CCApplication-mac.h"
     #include "platform/mac/CCGL-mac.h"
     #include "platform/mac/CCStdC-mac.h"
+	#include "platform/desktop/CCController-desktop.h"
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_MAC
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
@@ -223,6 +225,7 @@ THE SOFTWARE.
     #include "platform/desktop/CCGLViewImpl-desktop.h"
     #include "platform/linux/CCGL-linux.h"
     #include "platform/linux/CCStdC-linux.h"
+	#include "platform/desktop/CCController-desktop.h"
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_LINUX
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WINRT)
