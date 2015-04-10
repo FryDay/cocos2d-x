@@ -77,6 +77,8 @@ THE SOFTWARE.
 #include "base/CCEventListenerCustom.h"
 #include "base/CCEventFocus.h"
 #include "base/CCEventListenerFocus.h"
+#include "base/CCEventController.h"
+#include "base/CCEventListenerController.h"
 
 // math
 #include "math/CCAffineTransform.h"
